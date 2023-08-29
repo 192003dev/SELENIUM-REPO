@@ -15,6 +15,10 @@ public class Demo {
         //driver.navigate().forward();
         //Thread.sleep(1000);
         //driver.navigate().back();
+
+        int a = 10;
+        int b = 20;
+        System.out.println(a+b);
         Thread.sleep(3000);
         driver.close();
     }
